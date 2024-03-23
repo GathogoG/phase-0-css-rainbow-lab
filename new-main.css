@@ -1,0 +1,59 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rainbow-semi-circle {
+    width: 30vw; /* 40% of viewport width */
+    height: 70vh; /* 20% of viewport height */
+    position: absolute;
+    overflow: hidden;
+    transform: rotate(90deg); /* Rotate the semi-circle upright */
+}
+  
+  
+  .rainbow-semi-circle > div {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    position: absolute;
+    bottom: 0;
+    border-radius: 50%;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .orange {
+    background-color: orange;
+    left: 14.2857%;
+  }
+  
+  .yellow {
+    background-color: yellow;
+    left: 28.5714%;
+  }
+  
+  .green {
+    background-color: green;
+    left: 42.8571%;
+  }
+  
+  .blue {
+    background-color: blue;
+    left: 57.1429%;
+  }
+  
+  .indigo {
+    background-color: indigo;
+    left: 71.4286%;
+  }
+  
+  .violet {
+    background-color: violet;
+    left: 85.7143%;
+  }
+  
